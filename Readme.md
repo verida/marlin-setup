@@ -25,3 +25,7 @@ Note: Current repo assumes the build machine as well as enclave is arm64. If amd
 ## Deploy enclave
 
 To deploy the enclave please follow the guide in docs [here](https://docs.marlin.org/user-guides/oyster/instances/tutorials/nodejs-server/deploy).
+
+## Interact with API server
+
+Once enclave starts and an IP address is received for the enclave on the page, the server should be available at 5022 port.
