@@ -1,10 +1,10 @@
-# Verida API server
+# Marlin TEE setup
 
-This repo contains the code to build enclave image to run verida API server. It uses a self signed certificate and enables HTTPS connection to the API server. The TLS session ends within the enclave so that data is secured end to end. 
+This repo contains the code to build enclave image to run an express server on port 5022. It uses a self signed certificate and enables HTTPS connection to the API server. The TLS session ends within the enclave so that data is secured end to end. 
 
-## Pre requisites
+## Prerequisites
 
-To run the API server within enclave following pre requisites are necessary
+To run the server within enclave following pre requisites are necessary
 
 1. Docker
 2. A metamask account on Arbitrum one with some ETH(for gas) and some USDC(to pay for oyster enclave)
